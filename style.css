@@ -1,7 +1,54 @@
 body {
     font-family:'Arial','Helvetica Neue', Helvetica, sans-serif;
-    color:"#777";
-    background:"#777";
-    width:"960px";
-    font-size:"18px"
+    color: #777;
+    background: #777;
+    width:960px;
+    font-size:18px;
+    
+}
+
+header, nav, section, aside, footer {
+    background:#ebebeb;
+}
+/*article and what's in it*/
+article {
+    color:#ebebeb;
+    background:#777;
+    width:495px;
+}
+
+h1, p {
+    color:#777;
+    background:#ebebeb
+}
+
+aside {
+    width:495px;
+}
+
+/* navigation bar*/
+ul {
+    list-style-type:none;
+
+}
+
+li {
+    display:inline;
+    padding:10px;
+    margin:10px
+}
+
+.centered {
+    text-align:center
+}
+
+
+#right {
+    text-align:left;
+    width:495px;
+}
+
+#float {
+    text-align:right;
+    width:495px
 }
