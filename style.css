@@ -16,22 +16,46 @@ header, nav, section, aside, footer {
 /* navigation bar*/
 ul {
     list-style-type:none;
-
+    height:40px;
+    text-align: center;
+    padding-top: 20px
 }
 
 li {
     display:inline;
     padding:10px;
-    margin:10px
+    margin:10px;
+    text-align:center;
+    
+}
+
+.centered {
+    text-align:center;
+    color:#777;
+    background:#ebebeb;
+    height:60px;
+    margin-bottom:20px
 }
 
 /*article and what's in it*/
-article {
-    color:#ebebeb;
+
+.left {
+   color:#ebebeb;
     background:#777;
-    width:300px;
+    width:560px;
     float:left;
+    margin-right:5px;
+    height:250px
 }
+
+.article {
+    background:#777;
+    width:540px;
+    margin-left:10px;
+    margin-right:10px;
+   
+}
+
 
 h1, p {
     color:#777;
@@ -39,22 +63,19 @@ h1, p {
 }
 
 aside {
-    width:300px;
-    float:right
-}
+    width:395px;
+    height:298px;
+    float:right;
+    margin-top:22px
 
-
-.centered {
-    text-align:center;
-    color:#777;
-    background:#ebebeb
 }
 
 /*positioning of section and aside*/
 
 footer {
     position: fixed;
-    bottom: 0;
+    bottom: 10px;
     width: 960px;
+    height:50px;
     text-align:center;
 }
