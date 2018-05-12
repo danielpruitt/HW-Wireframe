@@ -4,26 +4,13 @@ body {
     background: #777;
     width:960px;
     font-size:18px;
+    text-align:center;
+    margin:auto;   
     
 }
 
 header, nav, section, aside, footer {
     background:#ebebeb;
-}
-/*article and what's in it*/
-article {
-    color:#ebebeb;
-    background:#777;
-    width:495px;
-}
-
-h1, p {
-    color:#777;
-    background:#ebebeb
-}
-
-aside {
-    width:495px;
 }
 
 /* navigation bar*/
@@ -38,17 +25,36 @@ li {
     margin:10px
 }
 
+/*article and what's in it*/
+article {
+    color:#ebebeb;
+    background:#777;
+    width:300px;
+    float:left;
+}
+
+h1, p {
+    color:#777;
+    background:#ebebeb
+}
+
+aside {
+    width:300px;
+    float:right
+}
+
+
 .centered {
-    text-align:center
+    text-align:center;
+    color:#777;
+    background:#ebebeb
 }
 
+/*positioning of section and aside*/
 
-#right {
-    text-align:left;
-    width:495px;
-}
-
-#float {
-    text-align:right;
-    width:495px
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 960px;
+    text-align:center;
 }
