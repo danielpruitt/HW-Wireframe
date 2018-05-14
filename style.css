@@ -13,69 +13,80 @@ header, nav, section, aside, footer {
     background:#ebebeb;
 }
 
-/* navigation bar*/
-ul {
-    list-style-type:none;
-    height:40px;
-    text-align: center;
-    padding-top: 20px
-}
 
-li {
-    display:inline;
-    padding:10px;
-    margin:10px;
-    text-align:center;
-    
-}
 
 .centered {
     text-align:center;
     color:#777;
     background:#ebebeb;
     height:60px;
-    margin-bottom:20px
+    margin-top:8px;
+    margin-bottom:20px;
+    padding-top:5px
 }
 
 /*article and what's in it*/
 
 .left {
-   color:#ebebeb;
+    color:#ebebeb;
     background:#777;
     width:560px;
     float:left;
     margin-right:5px;
-    height:250px
+    
+}
+
+.section{
+    background:#ebebeb;
+    height:350px;
+    padding-top:10px
 }
 
 .article {
     background:#777;
     width:540px;
+    height:240px;
     margin-left:10px;
     margin-right:10px;
+    margin-top:-300px;
+    padding-top:10px
    
+}
+
+.graybox{
+    background:#ebebeb;
+    width:400px;
+    height:35px;
+    margin-left:70px;
+    text-align:center;
+    padding-top:8px
+
 }
 
 
 h1, p {
     color:#777;
-    background:#ebebeb
+    background:#ebebeb;
 }
 
 aside {
     width:395px;
-    height:298px;
+    height:360px;
     float:right;
     margin-top:22px
 
+}
+.space{
+    padding-top:7px
 }
 
 /*positioning of section and aside*/
 
 footer {
     position: fixed;
-    bottom: 10px;
+    bottom: 80px;
     width: 960px;
-    height:50px;
+    height:45px;
     text-align:center;
+    padding-top:20px
 }
