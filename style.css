@@ -83,10 +83,10 @@ aside {
 /*positioning of section and aside*/
 
 footer {
-    position: fixed;
+    position: absolute;
     bottom: 80px;
     width: 960px;
-    height:45px;
+    height:55px;
     text-align:center;
     padding-top:20px
 }
